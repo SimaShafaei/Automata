@@ -1,0 +1,86 @@
+# a sandwich in the chief of staff wanted Sally ! 
+# that the floor and Ali sighed perplexed Minoo ! 
+# that the president wanted every president on Minoo perplexed every perplexed floor and a pickled pickled chief of staff .
+# every floor wanted every very fine floor . 
+# the fine delicious pickle pickled .
+# Ali and every president thought that the floor kissed Ali . 
+# every chief of staff sighed . 
+# that every president pickled perplexed every floor and the pickle . 
+# the floor ate every delicious floor and ate Minoo and Minoo ! 
+# that Ali kissed Sally perplexed Ali . 
+# Ali ate Minoo . 
+# that every chief of staff worked with a pickle perplexed Sally .
+# every perplexed very delicious sandwich sighed !  
+# Sally pickled and understood that the fine chief of staff in every president and Sally and a very delicious pickle in a president wanted Sally .
+# is it true that Sally sighed ? 
+# that Ali worked in a pickle perplexed a fine very pickled very fine floor .
+# Ali and Ali kissed Ali .
+# that Sally ate the sandwich on the sandwich perplexed every sandwich . 
+# a very fine delicious fine fine president on Sally and the pickled chief of staff ate Sally and a pickle on every very pickled fine delicious president !
+# Ali wanted the perplexed chief of staff and Ali . 
+
+
+2 ROOT	S .
+2 ROOT	S !
+1 ROOT	is it true that S ?     # mixing terminals and nonterminals is ok.
+1 ROOT	S2 .  
+
+
+1 S	NP VP
+1 S2	that S Verb2 NP
+
+1 VP	VP and VP
+4 VP	Verb
+4 VP	IntransVerb NP
+2 VP	PrepVerb PP
+1 VP	ThatVerb that S
+
+2 NP	NP and NP
+6 NP	Det Noun
+5 NP	Name
+1 NP	NP PP
+
+1 Noun	Adv Adj Noun
+2 Noun	Adj Noun
+
+1 PP	Prep NP
+
+1 ThatVerb	thought
+1 ThatVerb	understood
+
+1 PrepVerb	worked
+
+1 IntransVerb	ate
+1 IntransVerb	kissed
+1 IntransVerb	wanted
+
+1 Verb	pickled
+1 Verb	sighed
+
+1 Verb2	perplexed 
+
+1 Det	the
+1 Det	a
+1 Det	every
+
+1 Noun	president
+1 Noun	sandwich
+1 Noun	pickle
+1 Noun	chief of staff
+1 Noun	floor
+
+1 Name	Ali
+1 Name	Minoo
+1 Name	Sally
+
+1 Adj	fine
+1 Adj	delicious
+1 Adj	perplexed
+1 Adj	pickled
+
+1 Prep	with
+1 Prep	on
+1 Prep	under
+1 Prep	in
+
+1 Adv	very
